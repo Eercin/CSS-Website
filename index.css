@@ -1,0 +1,98 @@
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero__container {
+  max-width: 400px;
+  color: var(--clr-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.hero__title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero__description {
+}
+
+.hero__wrapper {
+}
+
+.hero__img {
+  width: 100%;
+}
+
+/* Products */
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.products__title {
+  font-size: 36px;
+}
+
+.products__container {
+  display: flex;
+  gap: 30px;
+}
+
+.products__item {
+}
+
+.products__img {
+  width: 100%;
+}
+
+.products__subtext {
+  text-align: center;
+}
+
+/* Testimonial */
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial__description {
+}
+
+.testimonial__author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+/* Signup */
+
+.signup {
+  padding: 30px 70px;
+  border-radius: 8px;
+  background-color: var(--clr-accent);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup__container {
+  color: var(--clr-secondary);
+}
+
+.signup__title {
+  font-weight: bold;
+}
+
+.signup__description {
+  font-size: 12px;
+}
