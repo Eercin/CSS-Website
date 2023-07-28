@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'RobotoLightItalic';
-  src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
-  font-family: 'RobotoExtraBold';
-  src: url(fonts/Roboto-Bold.ttf) format('truetype');
-  font-family: 'RobotoLight';
-  src: url(fonts/Roboto-Light.ttf) format('truetype');
-}
 /* Hero */
 .hero {
   display: flex;
@@ -15,38 +7,33 @@
 }
 
 .hero__container {
-  max-width: 400px;
   color: var(--clr-secondary);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
 }
-.header__link{
-  font-size: 18px;
-  color:rgba(229, 231, 235, 0.79);
-}
+
 .hero__title {
   font-family: RobotoExtraBold;
   font-size: 48px;
-  color:#f9faf8
+  color: #f9faf8;
 }
 
 .hero__description {
   font-family: RobotoLight;
   font-size: 18px;
-  color:#e5e7ebd5;
+  color: #e5e7ebd5;
   letter-spacing: 1px;
 }
 
 .hero__wrapper {
-  
 }
 
 .hero__img {
   width: 80%;
   height: auto;
-  margin-left: 13rem;
+  transform: translateX(45%);
 }
 
 /* Products */
@@ -61,7 +48,7 @@
 .products__title {
   font-family: RobotoExtraBold;
   font-size: 36px;
-  color:#1F2937;
+  color: #1f2937;
 }
 
 .products__container {
@@ -70,7 +57,7 @@
 }
 
 .products__item {
-  width:200px;
+  width: 200px;
   height: 200px;
 }
 
