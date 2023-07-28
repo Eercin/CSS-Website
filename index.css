@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'RobotoLightItalic';
+  src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+  font-family: 'RobotoExtraBold';
+  src: url(fonts/Roboto-Bold.ttf) format('truetype');
+  font-family: 'RobotoLight';
+  src: url(fonts/Roboto-Light.ttf) format('truetype');
+}
 /* Hero */
 .hero {
   display: flex;
@@ -14,20 +22,31 @@
   align-items: flex-start;
   gap: 20px;
 }
-
+.header__link{
+  font-size: 18px;
+  color:rgba(229, 231, 235, 0.79);
+}
 .hero__title {
+  font-family: RobotoExtraBold;
   font-size: 48px;
-  font-weight: 800;
+  color:#f9faf8
 }
 
 .hero__description {
+  font-family: RobotoLight;
+  font-size: 18px;
+  color:#e5e7ebd5;
+  letter-spacing: 1px;
 }
 
 .hero__wrapper {
+  
 }
 
 .hero__img {
-  width: 100%;
+  width: 80%;
+  height: auto;
+  margin-left: 13rem;
 }
 
 /* Products */
@@ -40,23 +59,30 @@
 }
 
 .products__title {
+  font-family: RobotoExtraBold;
   font-size: 36px;
+  color:#1F2937;
 }
 
 .products__container {
   display: flex;
-  gap: 30px;
+  gap: 80px;
 }
 
 .products__item {
+  width:200px;
+  height: 200px;
 }
 
 .products__img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .products__subtext {
   text-align: center;
+  font-weight: bold;
 }
 
 /* Testimonial */
@@ -67,9 +93,13 @@
 }
 
 .testimonial__description {
+  font-family: RobotoLightItalic;
+  font-size: 36px;
+  color: #1f2937e5;
 }
 
 .testimonial__author {
+  font-size: large;
   align-self: flex-end;
   font-weight: bold;
 }
