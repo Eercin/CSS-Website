@@ -10,16 +10,14 @@
 .products__title {
   font-family: RobotoExtraBold;
   font-size: 36px;
-  color:#1F2937;
+  color: #1f2937;
 }
 
 .products__container {
-  width: 1500px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 80px;
- 
 }
 
 .products__item {
