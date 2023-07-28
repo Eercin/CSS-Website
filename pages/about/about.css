@@ -1,0 +1,31 @@
+.about {
+  align-items: center; 
+  padding: 20px;
+}
+
+.about__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--clr-primary);
+  margin-bottom: 20px;
+}
+
+
+.about__image-container {
+  flex: 0 0 50%; 
+  margin-right: 30px; 
+}
+
+.about__image {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.about__description {
+  flex: 1; 
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--clr-primary);
+  margin-bottom: 30px;
+}
+
