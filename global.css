@@ -4,11 +4,31 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "RobotoLightItalic";
+  src: url(fonts/Roboto-LightItalic.ttf) format("truetype");
+  font-family: "RobotoExtraBold";
+  src: url(fonts/Roboto-Bold.ttf) format("truetype");
+  font-family: "RobotoLight";
+  src: url(fonts/Roboto-Light.ttf) format("truetype");
+}
+
 :root {
   --clr-primary: #1f2937;
   --clr-secondary: #f9faf8;
   --clr-tertiary: #e5e7eb;
   --clr-accent: #3882f6;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-secondary);
+}
+
+main {
+  flex: 1;
 }
 
 /* button */
@@ -19,6 +39,7 @@
   color: var(--clr-secondary);
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .button_secondary {
@@ -47,14 +68,12 @@
 }
 
 .header__logo {
-  width: 19%;
-  height: auto;
+  width: 100px;
 }
 
 .header__nav {
   display: flex;
   gap: 30px;
-  margin-bottom: 5rem;
 }
 
 .header__link {
@@ -73,7 +92,7 @@
 /* section */
 
 .section {
-  background-color: var(--clr-secondary);
+  height: 100%;
 }
 
 .section_dark {
@@ -105,15 +124,17 @@
   height: 60px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.footer__text {
-  color: var(--clr-secondary);
+  gap: 5px;
 }
 
 .footer__contact {
   color: var(--clr-secondary);
-  display: flex;
+}
+
+.footer__text {
+  color: var(--clr-secondary);
+  font-size: 12px;
 }
